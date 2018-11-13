@@ -4,6 +4,7 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
+use App\Form\ContactType;
 
 class ContactFormController extends AbstractController
 {
@@ -12,8 +13,10 @@ class ContactFormController extends AbstractController
      */
     public function index()
     {
+        $form = $this->createForm(ContactType::class);
+
         return $this->render('contact_form/index.html.twig', [
-            'controller_name' => 'ContactFormController',
+            'contact_form' => $form->createView(),
         ]);
     }
 }

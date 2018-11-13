@@ -1,9 +1,10 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello {{ controller_name }}!{% endblock %}
-
 {% block body %}
-    {{ form_start(form) }}
-    {{ form_widget(form) }}
-    {{ form_end(form) }}
+    <div class="container main">
+      {{ form_start(contact_form) }}
+      {{ form_widget(contact_form) }}
+      <button type="submit" name="button" class='btn btn-success'>Book Your Call</button>
+      {{ form_end(contact_form) }}
+    </div>
 {% endblock %}

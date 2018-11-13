@@ -11,12 +11,12 @@ class ContactType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('First Name')
-            ->add('Last Name')
-            ->add('Business Name')
-            ->add('Business Category')
+            ->add('FirstName')
+            ->add('LastName')
+            ->add('BusinessName')
+            ->add('BusinessCategory')
             ->add('Email')
-            ->add('Phone Number')
+            ->add('PhoneNumber')
         ;
     }
 
