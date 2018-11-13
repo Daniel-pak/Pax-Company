@@ -1,5 +1,6 @@
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  height: 100vh;
 }
 
 .main {
@@ -9,9 +10,9 @@ body {
 /* Homepage Only*/
 .tagline-main {
   text-align: center;
-  margin-top: 20%;
+  margin-top: 12%;
 }
 
 .home-button {
-
+  
 }
