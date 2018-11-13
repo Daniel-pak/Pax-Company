@@ -2,9 +2,17 @@
 
 {% block body %}
     <div class="container main">
-      {{ form_start(contact_form) }}
-      {{ form_widget(contact_form) }}
-      <button type="submit" name="button" class='btn btn-success'>Book Your Call</button>
-      {{ form_end(contact_form) }}
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <h2>Ready to ignite your business?</h2>
+          <p>Simply fill out the application and we'll get back to you within <strong>24 hours.</strong><i> Please note that not all businesses may be accepted due to high demand of services.</i></p>
+          {{ form_start(contact_form) }}
+          {{ form_widget(contact_form) }}
+          <button type="submit" name="button" class='btn btn-success'>Book Your Call</button>
+          {{ form_end(contact_form) }}
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
     </div>
 {% endblock %}
