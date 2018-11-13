@@ -1,0 +1,23 @@
+.service-plan-1 {
+    background-color: #2A9CC2;
+}
+.service-plan-2 {
+    background-color: #4BA07E;
+}
+.service-plan-3 {
+    background-color: #CBE80C;
+}
+.service-plan-4 {
+    background-color: #FF0064;
+}
+
+.service-plan-title {
+    margin-top: 5%;
+}
+
+.service-plan-description {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}

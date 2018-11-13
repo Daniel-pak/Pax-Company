@@ -13,26 +13,25 @@
     </head>
     <body>
         <nav class="navbar navbar-light navbar-expand-sm bg-light">
-            <span class="navbar-brand mb-0 h1"><a href="{{path('home')}}">Pax Company</a></span>
+            <span class="mb-0 h1"><a class='navbar-brand' href="{{path('home')}}">Pax Company</a></span>
             <div class="collapse navbar-collapse">
               <ul class='navbar-nav mr-auto'>
                 <li class='nav-item'>
                   <!-- Home -->
                 </li>
                 <li class='nav-item'>
-                    <a href="{{path('philosophy')}}">Philosophy</a>
+                    <a class='nav-link' href="{{path('philosophy')}}">Philosophy</a>
                 </li>
                 <li class='nav-item'>
-                  About Us
+                    <a class='nav-link' href="{{path('service_plan')}}">How We Can Help</a>
                 </li>
                 <li class='nav-item'>
-                  Contact Us
+                    <a class='nav-link' href="{{path('contact_form')}}">Contact Us</a>
                 </li>
               </ul>
             </div>
         </nav>
         {% block body %}
-
         {% endblock %}
         {% block javascripts %}
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
