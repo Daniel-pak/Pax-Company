@@ -8,8 +8,11 @@
         <div class="row">
           <div class="col-sm-12 text-center">
               <h1 class='tagline-main'>We Help Coaching & Ecommerce Businesses Scale To 7 & 8-Figures Through Paid Traffic And Sales Funnels</h1>
-              <button class='btn btn-light btn-outline-dark home-button'>Book a Discovery Call</button>
+              <button class='btn btn-light btn-outline-dark home-button' id='home-button'>Book a Discovery Call</button>
           </div>
         </div>
     </div>
+{% endblock %}
+{% block javascripts %}
+    <script type="text/javascript" src="{{ asset('js/home.js') }}"></script>
 {% endblock %}
