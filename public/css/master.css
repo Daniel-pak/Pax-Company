@@ -2,7 +2,13 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-/* Homepage */
+.main {
+  margin-top: 2%;
+}
+
+
+
+/* Homepage Only*/
 .tagline-main {
   text-align: center;
   margin-top: 20%;
@@ -10,8 +16,4 @@ body {
 
 .home-button {
 
-}
-
-.main {
-  margin-top: 2%;
 }
