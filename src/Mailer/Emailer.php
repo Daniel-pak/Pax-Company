@@ -23,9 +23,9 @@ class Emailer {
     public $mailer;
     public $message;
 
-    public function __construct(string $myParameter, \Swift_Mailer $mailer) {
-        $this->$myParameter = $myParameter;
-        $this->logger = $logger; #default logger interface - Monologue
+    public function __construct(\Swift_Mailer $mailer) {
+        // $this->$myParameter = $myParameter;
+        // $this->logger = $logger; #default logger interface - Monologue
         $this->mailer=$mailer;
 
         // $logger->alert('woah!');
