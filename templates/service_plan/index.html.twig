@@ -2,14 +2,14 @@
 {% block body %}
     <div class="container-fluid main" style='margin-top: 0%;'>
         <div class="row">
-            <div class="col-sm-6 service-plan-1">
+            <div class="col-sm-6 service-plan-1" id='service-plan-1'>
                 <h3 class='text-center service-plan-title'>90-Day Paid Traffic Profit Program</h3>
                 <div class="service-plan-description">
                   <p>This is our flagship service. Over these 90 days we come in & totally transform your advertising efforts. Within 14 days you’ll have your ads running. In 90% of cases all we need is photos from your end and our in-house copywriting expert starts to construct your campaigns. He works in conjunction with our in-house Facebook ad specialist to make sure that the right message is landing to the right audience set. Daniel works on the strategy and making sure that we load the canon properly in order to have a successful campaign.</p>
                   <p>To date, we have never made less than a 2X ROI over a 90-day slope for our Ecom & Training business clients, something we’re very proud of. If we decide to work with you, it’s only because we genuinely believe it’s going to be a home run. This 90-day program is a fixed 3 month agreement & then from there it’s rolling month by month.</p>
                 </div>
             </div>
-            <div class="col-sm-6 service-plan-2">
+            <div class="col-sm-6 service-plan-2" id='service-plan-2'>
                 <h3 class='text-center service-plan-title'>Webinar Funnel/Sales Funnel Creation</h3>
                 <div class="service-plan-description">
                     <p>This is either a done-with-you service or a done-for-you service. Most clients opt for the former. This comprises of a 2-day training where Daniel personally flies out to your offices to work with you & your team to build out either the perfect webinar funnel or sales funnel. Most clients decide on the done-with-you because it’s both quicker and better bang for buck.</p>
@@ -18,14 +18,14 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 service-plan-3">
+            <div class="col-sm-6 service-plan-3" id='service-plan-3'>
                 <h3 class='text-center service-plan-title'>60-Day Social Media Deep Dive</h3>
                 <div class="service-plan-description">
                     <p>This is a complete social media overhaul starting with a deep dive into your target audience. Once we determine your audience segments, we work tirelessly to strategize your social media campaigns on the right channels to the right people. In our years of service with our business partners, we've never had a campaign not meet our goals. </p>
                     <p></p>
                 </div>
             </div>
-            <div class="col-sm-6 service-plan-4">
+            <div class="col-sm-6 service-plan-4" id='service-plan-4'>
                 <h3 class='text-center service-plan-title'>Influencer Incubation Program</h3>
                 <div class="service-plan-description">
                     <!-- Service 4 description here -->
@@ -37,4 +37,7 @@
         </div>
     </div>
     <link rel="stylesheet" href="{{asset('css/serviceplans.css')}}">
+{% endblock %}
+{% block javascripts %}
+  <script type="text/javascript" src='{{asset('js/serviceplans.js')}}'></script>
 {% endblock %}
