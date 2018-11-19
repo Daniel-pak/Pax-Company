@@ -7,6 +7,15 @@ body {
   margin-top: 2%;
 }
 
+.footer {
+  /* height: %; */
+  padding: 2%;
+  font-size: .8em;
+}
+
+.footer ul {
+  list-style-type: none;
+}
 /* Homepage Only*/
 .tagline-main {
   text-align: center;
