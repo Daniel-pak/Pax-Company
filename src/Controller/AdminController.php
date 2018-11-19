@@ -15,7 +15,7 @@ class AdminController extends AbstractController
         //token authentication
           //if token is set -> check against DB
             //if return is true, redirect to path -> admin/home
-          //else return
+          //else return login form
 
         return $this->render('admin/index.html.twig', [
             'controller_name' => 'AdminController',
