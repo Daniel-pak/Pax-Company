@@ -14,5 +14,11 @@ body {
 }
 
 .home-button {
-  
+
+}
+
+/* Testimonial Only */
+
+.testimonial-images {
+    height: 200px;
 }

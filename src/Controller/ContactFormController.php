@@ -23,8 +23,6 @@ class ContactFormController extends AbstractController
             $this->addFlash('success', 'Thanks for submitting!');
             dump($form);
             $this->addFlash('warning', 'We will work to get back to you as soon as possible!');
-
-
         }
 
         return $this->render('contact_form/index.html.twig', [

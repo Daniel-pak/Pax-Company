@@ -45,3 +45,15 @@ document.getElementById('service-plan-4').addEventListener('mouseout', function(
     document.getElementById('service-plan-4').style.backgroundColor = '#D10092';
 
 })
+
+//service plan 5 on hover
+document.getElementById('service-plan-5').addEventListener('mouseover', function() {
+    console.log('what what?!');
+    document.getElementById('service-plan-5').style.backgroundColor = '#FFE0C5';
+})
+
+document.getElementById('service-plan-5').addEventListener('mouseout', function() {
+    console.log('bye bye! have a good time!');
+    document.getElementById('service-plan-5').style.backgroundColor = '#B09B88';
+
+})
